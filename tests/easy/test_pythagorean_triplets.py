@@ -9,6 +9,7 @@ test_cases = [
     ([51, 52, 68, 85], True),
 ]
 
+
 @pytest.mark.parametrize("nums,expected", test_cases)
 def test_pythagorean_triplets(nums, expected):
     assert s.solve(nums) == expected

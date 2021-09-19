@@ -2,6 +2,7 @@ from binary_search.easy.wolf_of_wall_street import Solution
 
 s = Solution()
 
+
 def test_wolf_of_wall_street():
     prices = [9, 11, 8, 5, 7, 10]
     assert s.solve(prices) == 5

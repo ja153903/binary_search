@@ -10,7 +10,7 @@ class Solution:
     def solve(self, n: int) -> List[str]:
         result = []
 
-        for i in range(1, n+1):
+        for i in range(1, n + 1):
             as_int = i
             as_str = str(i)
 
@@ -22,9 +22,8 @@ class Solution:
         return result
 
     def _has_three_six_nine(self, as_str: str) -> bool:
-        for num in ('3', '6', '9'):
+        for num in ("3", "6", "9"):
             if num in as_str:
                 return True
 
         return False
-

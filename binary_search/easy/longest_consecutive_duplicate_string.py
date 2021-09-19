@@ -16,4 +16,3 @@ class Solution:
                 current_char = s[i]
 
         return max_len if max_len > current_len else current_len
-

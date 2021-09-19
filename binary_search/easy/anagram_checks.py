@@ -1,5 +1,6 @@
 import collections
 
+
 class Solution:
     def solve(self, s0: str, s1: str) -> bool:
         counter = collections.Counter(s0)
