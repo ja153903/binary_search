@@ -6,7 +6,7 @@ s = Solution()
 
 test_cases = [
     ([5, 3, 2, 7, 9], True),
-    ([1, 5, 6, 9, 4, 3], False),
+    ([1, 5, 6, 9, 4, 3], True),
     ([0, 3, 0, 1], False),
     ([0, 2, 1], True),
     ([0, 0], False),
