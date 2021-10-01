@@ -9,14 +9,7 @@ class Solution:
 
     Return the number of swimmers that can still win the competition after the last round.
     If you tie for first in points, this still counts as winning.
-
-    Solution:
-
-    * Maybe we should think about this from the lens of what is the minimum score
-      a swimmer needs to win.
-    * We can sort the array first and suppose that the current number receives the first place amount of points
-    * We can then start backtracking by updating the rest of the possible scores.
     """
 
     def solve(self, nums: List[int]) -> int:
-        nums.sort()
+        pass
